@@ -2152,7 +2152,18 @@ input, select, textarea {
    				width: 195px!important;
 				background-size: 300%!important;
    				background-position: center;
+				transition: 0.4s;
+				border: 10px solid white;
+				transition-timing-function: ease-out;
+				box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
 				
+		}
+
+		.image.avatar:hover {
+			height: 200px;
+   			width: 200px!important;
+			   border: 7px solid white;
+			   box-shadow: 0 0 8px rgba(66, 66, 66, 0.2);
 		}
 
 			.image.avatar:before {
@@ -2615,7 +2626,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/BACKGROUND.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
