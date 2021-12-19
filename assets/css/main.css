@@ -3252,3 +3252,44 @@ input, select, textarea {
 			}
 
 	}
+
+.skills {
+	
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	
+	margin-top: 30px;
+	
+}
+
+/* .skills li {
+	margin: 2%;
+} */
+	
+@media screen and (max-width: 980px) {
+	.skills {
+		width: 100%;
+		margin-left: 0%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		/* width: 75%; */
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 0px;
+	}
+	
+	.skills li {
+		margin: 20px;
+	}
+
+}
+
+
+#learnedTech {
+	height: 20%;
+	width: 20%;
+}
